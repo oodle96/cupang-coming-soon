@@ -1,0 +1,17 @@
+/node_modules
+/.next
+/out
+/build
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+
+# Large source assets kept only locally (not needed to build the site).
+# The deployed app serves the copies under public/ only.
+/*.glb
+/*.blend
+/*.blend1
+/*.jpeg
+/*.jpg
+/*.png
+/cupang-loading-logo.svg
